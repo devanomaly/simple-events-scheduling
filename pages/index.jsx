@@ -1,5 +1,7 @@
 export default function StartingPage() {
   return (
-    <div>Hello!</div>
+    <div>
+      <h1>Here we'll show the featured events</h1>
+    </div>
   )
 }

@@ -2,3 +2,5 @@
 [0m2021.09.24 10:39:34 INFO  time: initialize in 2.72s[0m
 [0m2021.09.24 10:39:40 WARN  Build server is not auto-connectable.[0m
 [0m2021.09.24 10:39:40 WARN  no build tool detected in workspace '/home/rfpc/Documents/programacao/max-next-course/simple-events-scheduling'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+Sep 24, 2021 10:50:57 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
