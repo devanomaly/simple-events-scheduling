@@ -1,0 +1,4 @@
+[0m2021.09.24 10:39:32 INFO  Started: Metals version 0.10.7 in workspace '/home/rfpc/Documents/programacao/max-next-course/simple-events-scheduling' for client Visual Studio Code 1.60.1.[0m
+[0m2021.09.24 10:39:34 INFO  time: initialize in 2.72s[0m
+[0m2021.09.24 10:39:40 WARN  Build server is not auto-connectable.[0m
+[0m2021.09.24 10:39:40 WARN  no build tool detected in workspace '/home/rfpc/Documents/programacao/max-next-course/simple-events-scheduling'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
