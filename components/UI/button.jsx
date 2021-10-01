@@ -5,7 +5,7 @@ export default function Button(props) {
   return (
     <Link href={props.link}>
       {/* anchor tag to substitute default one! */}
-      <a className={classes.btn}> 
+      <a className={styles.btn}> 
       {/* dont set href because Link's href already does it for us! */}
         {props.children}
       </a>
