@@ -1,7 +1,6 @@
 import MainHeader from "./main-header"
 
 export default function Layout(props) {
-
   return (
     <>
       <MainHeader />
@@ -10,5 +9,4 @@ export default function Layout(props) {
       </main>
     </>
   )
-
 }
