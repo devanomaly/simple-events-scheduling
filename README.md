@@ -1,4 +1,4 @@
-<h2 style="color: green;">Based on https://github.com/mschwarzmueller/nextjs-course-code/tree/03-prj-routing-extra-files</h2>
+<h2>Based on https://github.com/mschwarzmueller/nextjs-course-code/tree/03-prj-routing-extra-files</h2>
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
