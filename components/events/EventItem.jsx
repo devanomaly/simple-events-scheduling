@@ -15,17 +15,19 @@ export default function EventItem(props) {
   const exploreLink = `/events/${id}`
 
   return (
-    <li>
+    <li className={styles.item}>
       <img src={'/' + image} alt="" />
-      <div>
-        <div>
+      <div className={styles.content}>
+        <div className={styles.summary}>
           <h2>{title}</h2>
-          <div>
+          <div className={styles.content}>
             <time>{humanReadableDate}</time>
           </div>
-          <div>
+          <div className={styles.address}>
             <address>{formattedAddress}</address>
           </div>
+        </div>
+        <div className={styles.actions}>
           <Link href={exploreLink}>Explore Event!</Link>
         </div>
       </div>
