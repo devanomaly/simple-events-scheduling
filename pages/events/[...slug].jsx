@@ -18,7 +18,16 @@ export default function FilteredEvents() {
   console.log("year", year);
 
   if (isNaN(year) || isNaN(month) || year > 2030 || year < 2021 || month < 1 || month > 12) {
-    return <p className="center">Invalid filter.</p>
+    return (
+      <>
+          <ErrorAlert>
+            Invalid filter.
+          </ErrorAlert>
+        <p className="center">
+          <Button link="/events">Show All events</Button>
+        </p>
+      </>
+    )
   }
 
   const filteredEvents = getFilteredEvents({ year, month })
