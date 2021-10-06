@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+.metals
 
 # testing
 /coverage
